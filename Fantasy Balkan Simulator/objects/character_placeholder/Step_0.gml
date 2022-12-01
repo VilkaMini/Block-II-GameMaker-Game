@@ -1,5 +1,13 @@
 /// @description Map Movement 
 
+// Stop along your path
+if keyboard_check(vk_space){
+	path_speed = 0;	
+}
+else {
+	path_speed = 4;
+}
+
 // If the path is stopped, then the check for movement can be repeated
 if(path_position == 1){
 	// Movement from v2 castle
