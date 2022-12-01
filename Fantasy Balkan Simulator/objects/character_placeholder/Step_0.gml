@@ -14,7 +14,9 @@ if(path_position == 1){
 	if (char_pos == 1){
 		// v2 gates to v2 castle
 		if keyboard_check(vk_right){
-			with (other) path_start(v2_gates_to_castle, char_speed, path_action_stop, false);
+			dupped_path = path_duplicate(v2_castle_to_gates)
+			path_reverse(dupped_path)
+			with (other) path_start(dupped_path, char_speed, path_action_stop, false);
 			char_pos = 0;
 		}
 		// v2 gates to windmill
@@ -32,7 +34,9 @@ if(path_position == 1){
 	if (char_pos == 2){
 		// windmill to v2 gates
 		if keyboard_check(vk_down){
-			with (other) path_start(v2_windmill_to_gates, char_speed, path_action_stop, false);
+			dupped_path = path_duplicate(v2_gates_to_windmill)
+			path_reverse(dupped_path)
+			with (other) path_start(dupped_path, char_speed, path_action_stop, false);
 			char_pos = 1;
 		}
 	}
@@ -40,7 +44,9 @@ if(path_position == 1){
 	if (char_pos == 4){
 		// v1 gates to v2 gates
 		if keyboard_check(vk_right){
-			with (other) path_start(v1_gates_to_v2_gates, char_speed, path_action_stop, false);
+			dupped_path = path_duplicate(v2_gates_to_v1_gates)
+			path_reverse(dupped_path)
+			with (other) path_start(dupped_path, char_speed, path_action_stop, false);
 			char_pos = 1;
 		}
 	}

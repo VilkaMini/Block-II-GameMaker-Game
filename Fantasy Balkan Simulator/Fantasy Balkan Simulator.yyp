@@ -4,13 +4,10 @@
   "name": "Fantasy Balkan Simulator",
   "resources": [
     {"id":{"name":"v2_gates_to_windmill","path":"paths/v2_gates_to_windmill/v2_gates_to_windmill.yy",},"order":2,},
-    {"id":{"name":"v2_gates_to_castle","path":"paths/v2_gates_to_castle/v2_gates_to_castle.yy",},"order":1,},
     {"id":{"name":"Village1","path":"rooms/Village1/Village1.yy",},"order":1,},
     {"id":{"name":"map_placeholder","path":"sprites/map_placeholder/map_placeholder.yy",},"order":0,},
     {"id":{"name":"player_map_placeholder","path":"sprites/player_map_placeholder/player_map_placeholder.yy",},"order":1,},
     {"id":{"name":"character_placeholder","path":"objects/character_placeholder/character_placeholder.yy",},"order":0,},
-    {"id":{"name":"v2_windmill_to_gates","path":"paths/v2_windmill_to_gates/v2_windmill_to_gates.yy",},"order":3,},
-    {"id":{"name":"v1_gates_to_v2_gates","path":"paths/v1_gates_to_v2_gates/v1_gates_to_v2_gates.yy",},"order":5,},
     {"id":{"name":"v2_gates_to_v1_gates","path":"paths/v2_gates_to_v1_gates/v2_gates_to_v1_gates.yy",},"order":4,},
     {"id":{"name":"v2_castle_to_gates","path":"paths/v2_castle_to_gates/v2_castle_to_gates.yy",},"order":0,},
     {"id":{"name":"Map","path":"rooms/Map/Map.yy",},"order":0,},
