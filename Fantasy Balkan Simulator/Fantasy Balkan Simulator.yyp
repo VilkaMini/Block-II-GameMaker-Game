@@ -3,7 +3,15 @@
   "resourceVersion": "1.6",
   "name": "Fantasy Balkan Simulator",
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"v2_gates_to_windmill","path":"paths/v2_gates_to_windmill/v2_gates_to_windmill.yy",},"order":2,},
+    {"id":{"name":"v2_gates_to_castle","path":"paths/v2_gates_to_castle/v2_gates_to_castle.yy",},"order":1,},
+    {"id":{"name":"map_placeholder","path":"sprites/map_placeholder/map_placeholder.yy",},"order":0,},
+    {"id":{"name":"player_map_placeholder","path":"sprites/player_map_placeholder/player_map_placeholder.yy",},"order":1,},
+    {"id":{"name":"character_placeholder","path":"objects/character_placeholder/character_placeholder.yy",},"order":0,},
+    {"id":{"name":"v2_windmill_to_gates","path":"paths/v2_windmill_to_gates/v2_windmill_to_gates.yy",},"order":3,},
+    {"id":{"name":"v2_gates_to_","path":"paths/v2_gates_to_/v2_gates_to_.yy",},"order":4,},
+    {"id":{"name":"v2_castle_to_gates","path":"paths/v2_castle_to_gates/v2_castle_to_gates.yy",},"order":0,},
+    {"id":{"name":"Map","path":"rooms/Map/Map.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -17,7 +25,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Map","path":"rooms/Map/Map.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
@@ -34,6 +42,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MapSprites","folderPath":"folders/Sprites/MapSprites.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Characters","folderPath":"folders/Sprites/Characters.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MapObjects","folderPath":"folders/Objects/MapObjects.yy","order":1,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
