@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "character_placeholder",
+  "name": "character_ingame",
   "spriteId": {
     "name": "Sprite5",
     "path": "sprites/Sprite5/Sprite5.yy",
@@ -24,14 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MapObjects",
-    "path": "folders/Objects/MapObjects.yy",
+    "name": "Characters",
+    "path": "folders/Objects/Characters.yy",
   },
 }
