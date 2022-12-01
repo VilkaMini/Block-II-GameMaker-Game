@@ -22,12 +22,25 @@ if(path_position == 1){
 			with (other) path_start(v2_gates_to_windmill, char_speed, path_action_stop, false);
 			char_pos = 2;
 		}
+		// v2 gates to v1 gates
+		if keyboard_check(vk_left){
+			with (other) path_start(v2_gates_to_v1_gates, char_speed, path_action_stop, false);
+			char_pos = 4;
+		}
 	}
 	// Movement from windmill
 	if (char_pos == 2){
 		// windmill to v2 gates
 		if keyboard_check(vk_down){
 			with (other) path_start(v2_windmill_to_gates, char_speed, path_action_stop, false);
+			char_pos = 1;
+		}
+	}
+	// Movement from v1 gates
+	if (char_pos == 4){
+		// v1 gates to v2 gates
+		if keyboard_check(vk_right){
+			with (other) path_start(v1_gates_to_v2_gates, char_speed, path_action_stop, false);
 			char_pos = 1;
 		}
 	}
