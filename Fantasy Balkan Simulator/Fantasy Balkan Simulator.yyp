@@ -16,6 +16,7 @@
     {"id":{"name":"character_placeholder","path":"objects/character_placeholder/character_placeholder.yy",},"order":0,},
     {"id":{"name":"Button_placeholder","path":"sprites/Button_placeholder/Button_placeholder.yy",},"order":4,},
     {"id":{"name":"v2_gates_to_v1_gates","path":"paths/v2_gates_to_v1_gates/v2_gates_to_v1_gates.yy",},"order":4,},
+    {"id":{"name":"character_greybox_object","path":"objects/character_greybox_object/character_greybox_object.yy",},"order":2,},
     {"id":{"name":"character_village_placeholder","path":"objects/character_village_placeholder/character_village_placeholder.yy",},"order":1,},
     {"id":{"name":"greyboxes_for_the_characters__1_","path":"sprites/greyboxes_for_the_characters__1_/greyboxes_for_the_characters__1_.yy",},"order":3,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":0,},
