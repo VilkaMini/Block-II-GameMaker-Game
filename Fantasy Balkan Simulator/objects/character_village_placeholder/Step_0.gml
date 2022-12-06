@@ -1,10 +1,10 @@
  /// @description Player Movement
 
 // Check keys for movement
-moveRight = keyboard_check(vk_right)
-moveLeft = keyboard_check(vk_left)
-moveUp = keyboard_check(vk_up)
-moveDown = keyboard_check(vk_down)
+moveRight = keyboard_check(ord("D"))
+moveLeft = keyboard_check(ord("A"))
+moveUp = keyboard_check(ord("W"))
+moveDown = keyboard_check(ord("S"))
 
 // Calculate movement
 vx = ((moveRight - moveLeft) * walkSpeed);

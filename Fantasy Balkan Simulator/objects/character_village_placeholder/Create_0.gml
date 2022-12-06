@@ -1,7 +1,7 @@
 /// @description Main
 
 // Variables
-walkSpeed = 1;
+walkSpeed = 2;
 vx = 0;
 vy = 0;
 dir = 3;
