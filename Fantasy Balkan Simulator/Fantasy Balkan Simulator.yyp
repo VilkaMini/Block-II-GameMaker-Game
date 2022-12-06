@@ -7,6 +7,7 @@
     {"id":{"name":"v2_gates_to_windmill","path":"paths/v2_gates_to_windmill/v2_gates_to_windmill.yy",},"order":2,},
     {"id":{"name":"Village1","path":"rooms/Village1/Village1.yy",},"order":1,},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":1,},
+    {"id":{"name":"map_controller","path":"objects/map_controller/map_controller.yy",},"order":1,},
     {"id":{"name":"Spruce_Tree","path":"sprites/Spruce_Tree/Spruce_Tree.yy",},"order":1,},
     {"id":{"name":"character_village_placeholder_sprite","path":"sprites/character_village_placeholder_sprite/character_village_placeholder_sprite.yy",},"order":1,},
     {"id":{"name":"map_placeholder","path":"sprites/map_placeholder/map_placeholder.yy",},"order":0,},
