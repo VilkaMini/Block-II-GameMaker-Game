@@ -2,7 +2,7 @@
 
 // Stop along your path
 if keyboard_check(vk_space){
-	path_speed = 0;	
+	path_speed = -1;	
 }
 else {
 	path_speed = 4;
