@@ -16,7 +16,7 @@ if(path_position == 1){
 	}
 	
 	// Movement from v2 castle
-	if (global.char_pos == 0){
+	else if (global.char_pos == 0){
 		// v2 castle to gates
 		if keyboard_check(ord("S")){
 			with (other) path_start(v2_castle_to_gates, char_speed, path_action_stop, false);
@@ -24,7 +24,7 @@ if(path_position == 1){
 		}
 	}
 	// Movement from v2 gates 
-	if (global.char_pos == 1){
+	else if (global.char_pos == 1){
 		// v2 gates to v2 castle
 		if keyboard_check(ord("D")){
 			dupped_path = path_duplicate(v2_castle_to_gates);
@@ -33,18 +33,18 @@ if(path_position == 1){
 			global.char_pos = 0;
 		}
 		// v2 gates to windmill
-		if keyboard_check(ord("W")){
+		else if keyboard_check(ord("W")){
 			with (other) path_start(v2_gates_to_windmill, char_speed, path_action_stop, false);
 			global.char_pos = 2;
 		}
 		// v2 gates to v1 gates
-		if keyboard_check(ord("A")){
+		else if keyboard_check(ord("A")){
 			with (other) path_start(v2_gates_to_v1_gates, char_speed, path_action_stop, false);
 			global.char_pos = 4;
 		}
 	}
 	// Movement from windmill
-	if (global.char_pos == 2){
+	else if (global.char_pos == 2){
 		// windmill to v2 gates
 		if keyboard_check(ord("S")){
 			dupped_path = path_duplicate(v2_gates_to_windmill);
@@ -54,7 +54,7 @@ if(path_position == 1){
 		}
 	}
 	// Movement from v1 gates
-	if (global.char_pos == 4){
+	else if (global.char_pos == 4){
 		// v1 gates to v2 gates
 		if keyboard_check(ord("D")){
 			dupped_path = path_duplicate(v2_gates_to_v1_gates);
