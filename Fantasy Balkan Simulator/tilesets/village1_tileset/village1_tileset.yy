@@ -1,10 +1,10 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "village1_tileset_placeholder",
+  "name": "village1_tileset",
   "spriteId": {
-    "name": "village1_tileset_placeholder_sprite",
-    "path": "sprites/village1_tileset_placeholder_sprite/village1_tileset_placeholder_sprite.yy",
+    "name": "village1_tileset_sprite",
+    "path": "sprites/village1_tileset_sprite/village1_tileset_sprite.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
