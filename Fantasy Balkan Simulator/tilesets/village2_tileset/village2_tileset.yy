@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "village2_tileset",
   "spriteId": {
-    "name": "Sprite11",
-    "path": "sprites/Sprite11/Sprite11.yy",
+    "name": "tiles",
+    "path": "sprites/tiles/tiles.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,

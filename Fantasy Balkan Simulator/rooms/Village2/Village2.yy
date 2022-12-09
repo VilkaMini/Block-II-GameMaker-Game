@@ -21,12 +21,18 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C37364","properties":[],"isDnd":false,"objectId":{"name":"character_village_placeholder","path":"objects/character_village_placeholder/character_village_placeholder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70CEEB7A","properties":[],"isDnd":false,"objectId":{"name":"character_greybox_object","path":"objects/character_greybox_object/character_greybox_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":297.0,"y":134.0,},
-      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_background","tilesetId":{"name":"village2_tileset","path":"tilesets/village2_tileset/village2_tileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":86,"SerialiseHeight":48,"TileCompressedData":[
-1,268435464,-3,9,1,268435464,-3,9,2,4,12,-20,9,-56,0,-2,9,8,268435464,9,9,8,9,8,4,12,-4,9,1,8,-15,9,-56,0,1,8,-3,9,6,268435464,9,8,9,4,12,-7,9,1,8,-12,9,-56,0,13,8,9,8,9,9,8,8,9,4,12,9,9,268435464,-17,9,-56,0,-3,9,-2,8,-2,9,4,2,15,14,3,-19,9,-56,0,
-4,9,268435464,9,2,-3,5,4,15,1,1,14,-3,5,9,3,9,268435464,9,9,8,9,9,2,-7,5,-56,0,-3,5,2,15,6,-7,13,5,7,1,14,5,3,-3,9,5,2,5,15,1,6,-5,13,-56,0,-4,13,21,11,9,8,9,9,268435464,9,9,10,13,13,7,14,3,9,2,15,6,13,13,11,-5,9,-56,0,-2,9,-2,268435464,-8,
-9,10,268435464,9,8,10,7,14,5,15,6,11,-8,9,-56,0,2,9,8,-7,9,1,8,-6,9,5,10,7,1,6,11,-9,9,-56,0,-15,9,5,8,9,4,6,11,-10,9,-56,0,-3,9,1,8,-8,9,1,8,-3,9,3,8,4,12,-11,9,-56,0,-5,9,3,268435464,9,8,-9,9,2,4,12,-11,9,-56,0,1,8,-8,9,1,8,
--5,9,5,8,9,4,12,17,-10,9,-56,0,-17,5,2,15,14,-11,5,-56,0,-30,1,-56,0,-30,13,-56,0,-30,9,-56,0,-30,9,-56,0,-30,9,-2464,0,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_668EF1E4","properties":[],"isDnd":false,"objectId":{"name":"lamp_post_object","path":"objects/lamp_post_object/lamp_post_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":264.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_758B3FE7","properties":[],"isDnd":false,"objectId":{"name":"sign_post_object","path":"objects/sign_post_object/sign_post_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":312.0,"y":224.0,},
+      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":8,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_background","tilesetId":{"name":"village2_tileset","path":"tilesets/village2_tileset/village2_tileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":20,"TileCompressedData":[
+1,268435464,-3,9,1,268435464,-3,9,2,4,12,-22,9,8,268435464,9,9,8,9,8,4,12,-4,9,1,8,-15,9,1,8,
+-3,9,6,268435464,9,8,9,4,12,-7,9,1,8,-12,9,13,8,9,8,9,9,8,8,9,4,12,9,9,268435464,-20,
+9,-2,8,-2,9,4,2,15,14,3,-20,9,3,268435464,9,2,-3,5,4,15,1,1,14,-3,5,9,3,9,268435464,9,
+9,8,9,9,2,-10,5,2,15,6,-7,13,5,7,1,14,5,3,-3,9,5,2,5,15,1,6,-9,13,21,11,
+9,8,9,9,268435464,9,9,10,13,13,7,14,3,9,2,15,6,13,13,11,-7,9,-2,268435464,-8,9,10,268435464,9,8,
+10,7,14,5,15,6,11,-9,9,1,8,-7,9,1,8,-6,9,5,10,7,1,6,11,-24,9,5,8,9,4,6,
+11,-13,9,1,8,-8,9,1,8,-3,9,3,8,4,12,-16,9,3,268435464,9,8,-9,9,2,4,12,-11,9,1,8,
+-8,9,1,8,-5,9,4,8,9,4,12,-11,9,-17,5,2,15,14,-11,5,-30,1,-30,13,-90,9,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"greyboxes_for_the_characters__1_","path":"sprites/greyboxes_for_the_characters__1_/greyboxes_for_the_characters__1_.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
@@ -35,13 +41,15 @@
   "instanceCreationOrder": [
     {"name":"inst_3C37364","path":"rooms/Village2/Village2.yy",},
     {"name":"inst_70CEEB7A","path":"rooms/Village2/Village2.yy",},
+    {"name":"inst_668EF1E4","path":"rooms/Village2/Village2.yy",},
+    {"name":"inst_758B3FE7","path":"rooms/Village2/Village2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1366,
-    "Height": 768,
+    "Width": 480,
+    "Height": 320,
     "persistent": false,
   },
   "viewSettings": {

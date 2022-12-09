@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "character_greybox_object",
+  "name": "lamp_post_object",
   "spriteId": {
-    "name": "greyboxes_for_the_characters__1_",
-    "path": "sprites/greyboxes_for_the_characters__1_/greyboxes_for_the_characters__1_.yy",
+    "name": "lamp_post_sprite",
+    "path": "sprites/lamp_post_sprite/lamp_post_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "name": "Village2Decorations",
+    "path": "folders/Objects/Village2Decorations.yy",
   },
 }

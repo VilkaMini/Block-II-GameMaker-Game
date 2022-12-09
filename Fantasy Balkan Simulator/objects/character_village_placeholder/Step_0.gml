@@ -12,6 +12,14 @@ vy = ((moveDown - moveUp) * walkSpeed);
 
 // If moving
 if (vx != 0 || vy != 0) {
+	if !collision_point(x+vx,y,decoration_object_parent,true,true) {	
 	x += vx;
+	}
+	
+	if !collision_point(x,y+vy,decoration_object_parent,true,true) {	
 	y += vy;
+	}
 }
+
+// Depth sorting
+depth =-y;
