@@ -9,3 +9,6 @@ moveRight = 0;
 moveLeft = 0;
 moveUp = 0;
 moveDown = 0;
+
+x = global.village2positionX;
+y = global.village2positionY;

@@ -32,6 +32,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53ED201","properties":[],"isDnd":false,"objectId":{"name":"post_0_5x1_object","path":"objects/post_0_5x1_object/post_0_5x1_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":248.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41A57F61","properties":[],"isDnd":false,"objectId":{"name":"post_5x1_object","path":"objects/post_5x1_object/post_5x1_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_266E712E","properties":[],"isDnd":false,"objectId":{"name":"post_5x1_object","path":"objects/post_5x1_object/post_5x1_object.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":440.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DC2DA28","properties":[],"isDnd":false,"objectId":{"name":"village_controller","path":"objects/village_controller/village_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":-16.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":8,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_background","tilesetId":{"name":"village2_tileset","path":"tilesets/village2_tileset/village2_tileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":20,"TileCompressedData":[
 1,268435464,-3,9,1,268435464,-3,9,2,4,12,-22,9,8,268435464,9,9,8,9,8,4,12,-4,9,1,8,-15,9,1,8,
@@ -61,6 +62,7 @@
     {"name":"inst_53ED201","path":"rooms/Village2/Village2.yy",},
     {"name":"inst_41A57F61","path":"rooms/Village2/Village2.yy",},
     {"name":"inst_266E712E","path":"rooms/Village2/Village2.yy",},
+    {"name":"inst_2DC2DA28","path":"rooms/Village2/Village2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
