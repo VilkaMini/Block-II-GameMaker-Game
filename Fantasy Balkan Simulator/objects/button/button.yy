@@ -30,8 +30,8 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"textToDraw","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"\"Play\"",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonNumber","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"textToDraw","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"\"Exit\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonNumber","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Buttons",
