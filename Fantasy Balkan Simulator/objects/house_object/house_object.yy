@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "post_1x1_object",
+  "name": "house_object",
   "spriteId": {
-    "name": "post_0_5x1_sprite",
-    "path": "sprites/post_0_5x1_sprite/post_0_5x1_sprite.yy",
+    "name": "house_sprite",
+    "path": "sprites/house_sprite/house_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "post_objects",
-    "path": "folders/Objects/Village2Decorations/post_objects.yy",
+    "name": "Village2Decorations",
+    "path": "folders/Objects/Village2Decorations.yy",
   },
 }
