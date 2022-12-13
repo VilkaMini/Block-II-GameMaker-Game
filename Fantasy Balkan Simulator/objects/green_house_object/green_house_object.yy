@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "house_object",
+  "name": "green_house_object",
   "spriteId": {
-    "name": "house_sprite",
-    "path": "sprites/house_sprite/house_sprite.yy",
+    "name": "green_house_sprite",
+    "path": "sprites/green_house_sprite/green_house_sprite.yy",
   },
   "solid": false,
   "visible": true,
