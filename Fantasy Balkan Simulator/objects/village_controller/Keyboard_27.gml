@@ -6,7 +6,5 @@ if (room == Village2){
 	global.village2positionY = character_village_placeholder.y;
 }
 
-gui
-
 // Go to menu
 room_goto(StartMenu);
