@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "post_0_5x1_object",
   "spriteId": {
-    "name": "post_1x1_sprite",
-    "path": "sprites/post_1x1_sprite/post_1x1_sprite.yy",
+    "name": "post_0_5x1_sprite",
+    "path": "sprites/post_0_5x1_sprite/post_0_5x1_sprite.yy",
   },
   "solid": false,
   "visible": true,

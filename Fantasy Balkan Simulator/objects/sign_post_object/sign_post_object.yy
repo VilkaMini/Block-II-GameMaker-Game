@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Village2Decorations",
-    "path": "folders/Objects/Village2Decorations.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
