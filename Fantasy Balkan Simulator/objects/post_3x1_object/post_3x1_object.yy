@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "post_5x1_object",
+  "name": "post_3x1_object",
   "spriteId": {
-    "name": "post_5x1_sprite",
-    "path": "sprites/post_5x1_sprite/post_5x1_sprite.yy",
+    "name": "post_3x1_sprite",
+    "path": "sprites/post_3x1_sprite/post_3x1_sprite.yy",
   },
   "solid": false,
   "visible": true,
