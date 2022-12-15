@@ -12,6 +12,7 @@ var _yy = 720;
 if (room != StartMenu){
 	// Draw inventory box
 	draw_sprite(inventory_greybox, -1, 683, 720);
+	draw_sprite(spr_selected, item_pos_index, _xx + _item_x, _yy);
 	// Draw each item
 	item_pos_index += 0.2;
 	// Go through inventory slots
