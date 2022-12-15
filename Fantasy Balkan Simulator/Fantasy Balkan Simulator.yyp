@@ -12,6 +12,7 @@
     {"id":{"name":"Spruce_Tree","path":"sprites/Spruce_Tree/Spruce_Tree.yy",},"order":1,},
     {"id":{"name":"inventory_greybox","path":"sprites/inventory_greybox/inventory_greybox.yy",},"order":0,},
     {"id":{"name":"character_village_placeholder_sprite","path":"sprites/character_village_placeholder_sprite/character_village_placeholder_sprite.yy",},"order":1,},
+    {"id":{"name":"little_item_counter","path":"fonts/little_item_counter/little_item_counter.yy",},"order":1,},
     {"id":{"name":"button_click","path":"sounds/button_click/button_click.yy",},"order":0,},
     {"id":{"name":"tiles","path":"sprites/tiles/tiles.yy",},"order":1,},
     {"id":{"name":"village_controller","path":"objects/village_controller/village_controller.yy",},"order":0,},
