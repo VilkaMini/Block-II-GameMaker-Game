@@ -1,5 +1,4 @@
 /// @description Create inventory
-randomize();
 item_pos = 0;
 item_pos_index = 0;
 // Create array
