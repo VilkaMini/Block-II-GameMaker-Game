@@ -3,7 +3,11 @@
 var _pos = 0;
 var _type = item;
 var _sprite = sprite_index;
-array_push(global.instance_array, instance_position(mouse_x,mouse_y,all));
+var _inst = instance_position(mouse_x,mouse_y,all)
+array_push(global.instance_array, _inst);
+
+show_debug_message("Pickup")
+show_debug_message(global.instance_array);
 
 with(village_controller)
 {
@@ -30,6 +34,7 @@ with(village_controller)
 		    global.item_array[_pos][item_type] = _type;
 		    global.item_array[_pos][item_sprite] = _sprite;
 		    global.item_array[_pos][item_amount] += 1;
+			global.item_array[_pos][item_instId] = _inst;
 		    with(other) instance_destroy();
 	    }
 }
