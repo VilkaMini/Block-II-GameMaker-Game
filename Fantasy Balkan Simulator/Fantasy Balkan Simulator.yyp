@@ -22,6 +22,7 @@
     {"id":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},"order":2,},
     {"id":{"name":"post_1x1_object","path":"objects/post_1x1_object/post_1x1_object.yy",},"order":2,},
     {"id":{"name":"lamp_post_sprite","path":"sprites/lamp_post_sprite/lamp_post_sprite.yy",},"order":0,},
+    {"id":{"name":"spr_map_aesprite","path":"sprites/spr_map_aesprite/spr_map_aesprite.yy",},"order":3,},
     {"id":{"name":"decoration_object_parent","path":"objects/decoration_object_parent/decoration_object_parent.yy",},"order":1,},
     {"id":{"name":"green_house_sprite","path":"sprites/green_house_sprite/green_house_sprite.yy",},"order":5,},
     {"id":{"name":"character_ingame","path":"objects/character_ingame/character_ingame.yy",},"order":0,},
