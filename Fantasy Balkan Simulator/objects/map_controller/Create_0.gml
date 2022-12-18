@@ -3,13 +3,13 @@ if (!variable_global_exists("char_pos")){global.char_pos = 0;}
 
 // Position castle
 if (global.char_pos == 0){
-	character_placeholder.x = 1696;
-	character_placeholder.y = 352;
+	character_placeholder.x = 1184;
+	character_placeholder.y = 736;
 }
-// Position v2 gates
+// Position windmill
 if (global.char_pos == 1){
-	character_placeholder.x = 1280;
-	character_placeholder.y = 704;
+	character_placeholder.x = 1472;
+	character_placeholder.y = 288;
 }
 
 
