@@ -9,6 +9,7 @@ for(var i = 0; i < 5; i += 1)
 {
 	global.item_array[i][item_type] = item_none;
 	global.item_array[i][item_sprite] = -1;
-	global.item_array[i][item_amount] = 0;
+	//global.item_array[i][item_amount] = 0;
 	global.item_array[i][item_instId] = noone;
 }
+

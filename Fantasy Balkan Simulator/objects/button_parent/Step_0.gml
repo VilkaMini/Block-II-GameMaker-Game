@@ -22,7 +22,7 @@ if (inst != noone){
 	if mouse_check_button_pressed(mb_left){
 		audio_play_sound(button_exit_game, 1,0);
 		switch inst.buttonNumber {
-			case 0: {room_goto(Village2);}; break;
+			case 0: {room_goto(Map);}; break;
 			case 2: {game_end();}; break;
 		}
 	}

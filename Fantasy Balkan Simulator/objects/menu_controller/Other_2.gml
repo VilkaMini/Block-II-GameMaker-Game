@@ -1,8 +1,5 @@
 /// @description Set variables;
 
-global.village2positionX = 392.5;
-global.village2positionY = 822;
-
 #macro item_type 0
 #macro item_sprite 1
 #macro item_amount 2

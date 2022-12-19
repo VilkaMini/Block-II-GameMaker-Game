@@ -8,7 +8,7 @@ var _item_x = item_pos * 64;
 var _xx = 683-128;
 var _yy = 720;
 
-// If the room is not start menu
+// If the room is village
 if (room == Village2){
 	// Draw inventory box
 	draw_sprite(spr_inventory, -1, 683, 720);
@@ -21,7 +21,7 @@ if (room == Village2){
 	    if !(global.item_array[i, item_type] == item_none){
 			// Draw sprite
 	        draw_sprite_ext(global.item_array[i, item_sprite], 0, _xx, _yy, 3.5, 3.5, 0, c_white, 1);
-	        draw_text(_xx + 25, _yy + 28,  + string(global.item_array[i, item_amount]));
+	        //draw_text(_xx + 25, _yy + 28,  + string(global.item_array[i, item_amount]));
 	        }
 	    _xx += 64;
 	}

@@ -11,8 +11,7 @@ if (global.char_pos == 1){
 	character_placeholder.x = 1472;
 	character_placeholder.y = 288;
 }
-
-
-
-
-
+if (global.char_pos == 2){
+	character_placeholder.x = 608.62;
+	character_placeholder.y = 927.49;
+}

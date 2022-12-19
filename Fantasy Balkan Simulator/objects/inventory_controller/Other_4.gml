@@ -1,4 +1,4 @@
-/// @description CHecking for instances that are picked up
+/// @description Checking for instances that are picked up
 
 // Getting length of instance array
 len = array_length(global.instance_array);
