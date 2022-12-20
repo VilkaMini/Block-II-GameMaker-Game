@@ -15,7 +15,7 @@ if(path_position == 1){
 		room_goto(Village2);
 	}
 	else if (global.char_pos == 2 && keyboard_check(vk_enter)){
-		room_goto(Village1);
+		room_goto(Village2);
 	}
 	
 	// Movement from v2 gates 

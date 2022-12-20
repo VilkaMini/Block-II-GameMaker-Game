@@ -2,7 +2,8 @@
 
 #macro item_type 0
 #macro item_sprite 1
-#macro item_instId 2
+#macro item_amount 2
+#macro item_instId 3
 
 #macro item_none 0
 #macro item_banana 1
