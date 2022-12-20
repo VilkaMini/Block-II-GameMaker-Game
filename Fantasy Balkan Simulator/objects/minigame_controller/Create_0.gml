@@ -6,3 +6,7 @@ _centerX = 683;
 _centerY = 380;
 _rotation = 0.0;
 _rotMove = 0.00;
+_incSize = 1;
+
+// First circle was completed
+_round2 = false;

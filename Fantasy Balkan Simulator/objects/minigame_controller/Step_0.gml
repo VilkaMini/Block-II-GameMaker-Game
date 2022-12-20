@@ -1,4 +1,7 @@
 /// @description Minigamecontroller
+if (_round2 && _diameter <= 400){
+	_diameter += _incSize;
+}
 
 if (global.exit_clicked == true){
 	if (_rotMove >= 1){
@@ -8,10 +11,15 @@ if (global.exit_clicked == true){
 		_rotation = 0;
 	}
 	_real_exit_position = irandom(5);
-	for (var i=0; i<100; i++){
+	for (var i=0; i<50; i++){
 		_butX = _centerX+_diameter*cos((_rotation+_rotMove)*2*pi);
 		_butY = _centerY+_diameter*sin((_rotation+_rotMove)*2*pi);
 		if (i == _real_exit_position){
+			if (_round2){
+				instance_create_layer(_butX, _butY, "Instances", button, {
+					buttonNumber: 5
+				})
+			}
 			instance_create_layer(_butX, _butY, "Instances", button, {
 				buttonNumber: 4
 			});
@@ -21,7 +29,7 @@ if (global.exit_clicked == true){
 				buttonNumber: 3
 			});
 		}
-		_rotation += 0.01;
+		_rotation += 0.02;
 	}
 	_rotMove += 0.005;
 }

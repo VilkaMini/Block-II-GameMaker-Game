@@ -25,7 +25,8 @@ if (inst != noone){
 			case 0: {room_goto(Map);} break;
 			case 2: {global.exit_clicked = true;} break;
 			case 3: {show_debug_message("Fake exit button");} break;
-			case 4: {game_end();} break;
+			case 4: {minigame_controller._round2 = true;} break;
+			case 5: {game_end();} break;
 		}
 	}
 }
