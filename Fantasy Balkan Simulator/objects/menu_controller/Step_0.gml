@@ -24,7 +24,7 @@ if (inst != noone){
 		switch inst.buttonNumber {
 			case 0: {room_goto(Map);} break;
 			case 2: {global.exit_clicked = true;} break;
-			case 3: {show_debug_message("Fake");} break;
+			case 3: {show_debug_message("Fake exit button");} break;
 			case 4: {game_end();} break;
 		}
 	}

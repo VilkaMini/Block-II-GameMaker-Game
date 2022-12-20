@@ -6,4 +6,3 @@ _centerX = 683;
 _centerY = 380;
 _rotation = 0.0;
 _rotMove = 0.00;
-_inst = noone;
