@@ -1,4 +1,4 @@
-/// @description 
+/// @description Variables
 
 inst = noone;
 temp_inst = noone;

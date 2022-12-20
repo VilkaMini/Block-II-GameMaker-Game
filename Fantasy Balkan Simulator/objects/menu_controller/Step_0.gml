@@ -22,8 +22,10 @@ if (inst != noone){
 	if (mouse_check_button_pressed(mb_left) && !global.exit_clicked){
 		audio_play_sound(button_exit_game, 1,0);
 		switch inst.buttonNumber {
-			case 0: {room_goto(Map);}; break;
-			case 2: {global.exit_clicked = true;}; break;
+			case 0: {room_goto(Map);} break;
+			case 2: {global.exit_clicked = true;} break;
+			case 3: {show_debug_message("Fake");} break;
+			case 4: {game_end();} break;
 		}
 	}
 }
