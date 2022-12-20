@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "decoration_object_parent",
-    "path": "objects/decoration_object_parent/decoration_object_parent.yy",
+    "name": "int_character_parent",
+    "path": "objects/int_character_parent/int_character_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,7 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Grey man\"",},
+  ],
   "parent": {
     "name": "Characters",
     "path": "folders/Objects/Characters.yy",
