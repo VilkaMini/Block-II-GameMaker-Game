@@ -1,4 +1,4 @@
-/// @description Set variables;
+/// @description Set inventory variables;
 
 #macro item_type 0
 #macro item_sprite 1

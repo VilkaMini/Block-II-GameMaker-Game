@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "button",
   "spriteId": {
-    "name": "Button_placeholder",
-    "path": "sprites/Button_placeholder/Button_placeholder.yy",
+    "name": "spr_game_button",
+    "path": "sprites/spr_game_button/spr_game_button.yy",
   },
   "solid": false,
   "visible": true,
