@@ -19,7 +19,7 @@ if (inst != noone){
 	}
 	temp_inst = inst;
 	// If clicked play sound and switch room
-	if (mouse_check_button_pressed(mb_left) && !global.exit_clicked){
+	if (mouse_check_button_pressed(mb_left)){
 		audio_play_sound(button_exit_game, 1,0);
 		switch inst.buttonNumber {
 			case 0: {room_goto(Map);} break;
