@@ -1,7 +1,7 @@
 /// @description Draw textbox
-draw_set_font(dialogue_box_font);
-draw_set_halign(fa_right);
-draw_set_valign(fa_bottom);
+draw_set_font(pixelated_font);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
 draw_set_color(c_black);
 
 _x = 683;
@@ -49,14 +49,14 @@ if (room == Village2 && global.interacting){
 	answer_box_pos = [341, 683, 1024];
 	
 	// Draw dialogue opener aka textbox and text
-	draw_sprite(textbox, -1, _x, _y);
-	draw_text_ext(_x, _y, "Question", 5, 900);
+	draw_sprite(textbox, -1, _x, _y-45);
+	draw_text_ext(_x, _y-45, "Question", 5, 900);
 	
 	// Draw answers
 	text = global._selected;
 	for (var d=0; d<array_length(text); d++){
-		draw_sprite_ext(textbox, -1, answer_box_pos[d], _y, 0.3, 0.3, 0, c_white, 1);
-		draw_text_ext(answer_box_pos[d], _y, text[d][1], 5, 300);
+		draw_sprite_ext(textbox_button, -1, answer_box_pos[d], _y+150, 1, 1, 0, c_white, 1);
+		draw_text_ext(answer_box_pos[d], _y+150, text[d][1], 5, 300);
 		show_debug_message(text[d][1]);
 	}
 
