@@ -1,8 +1,9 @@
 /// @description Create variables
 
 if (!variable_global_exists("dialogueTextToDraw")){global.dialogueTextToDraw = "Sample";}
+if (!variable_global_exists("_selected")){global._selected = noone;}
 
-array_quests = 
+global.array_quests = 
 [
 	["NotCompleted",
 		["NotSelected", "Who was that?", "Reply", 
@@ -10,7 +11,7 @@ array_quests =
 						["NotSubSubSelected", "Say nothing", "Reply"]
 					],
 				["NotSubSelected", "Say nothing", "Reply", 
-						[0, "I’m sorry that happened", "Reply"]
+						["NotSubSubSelected", "I’m sorry that happened", "Reply"]
 					]
 			],
 		["NotSelected", "(V1 Slur) what’s that ", "Reply"],

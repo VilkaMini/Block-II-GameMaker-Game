@@ -33,7 +33,6 @@ if (npcNearby){
 			}
 			case false: {
 				global.interacting = true;
-				global.dialogueTextToDraw = "Something lol";
 				break;
 				}
 		}
