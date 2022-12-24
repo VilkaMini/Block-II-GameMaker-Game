@@ -13,7 +13,7 @@
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 8,
-  "bbox_bottom": 16,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Village2Decorations",
-    "path": "folders/Sprites/Village2Decorations.yy",
+    "name": "Village Sprites",
+    "path": "folders/Sprites/Village Sprites.yy",
   },
 }

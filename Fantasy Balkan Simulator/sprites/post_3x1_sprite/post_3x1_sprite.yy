@@ -10,10 +10,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": -5,
-  "bbox_right": 52,
-  "bbox_top": 10,
-  "bbox_bottom": 16,
+  "bbox_left": 0,
+  "bbox_right": 47,
+  "bbox_top": 9,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "post_sprites",
-    "path": "folders/Sprites/Village2Decorations/post_sprites.yy",
+    "path": "folders/Sprites/Village Sprites/post_sprites.yy",
   },
 }

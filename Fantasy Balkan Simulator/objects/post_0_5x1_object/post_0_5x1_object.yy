@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "post_objects",
-    "path": "folders/Objects/Village2Decorations/post_objects.yy",
+    "path": "folders/Objects/Village Objects/post_objects.yy",
   },
 }

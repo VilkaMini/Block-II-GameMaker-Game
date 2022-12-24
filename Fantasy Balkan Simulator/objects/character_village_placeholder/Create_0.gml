@@ -22,7 +22,7 @@ else if (global.char_pos == 2 &&  variable_global_exists("char_v1_positionX")){
 	y = global.char_v1_positionY;
 }
 else {
-	x = 392.5;
-	y = 822;
+	x = 264;
+	y = 880;
 }
 

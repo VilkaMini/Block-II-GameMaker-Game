@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Village2Decorations",
-    "path": "folders/Sprites/Village2Decorations.yy",
+    "name": "Village Sprites",
+    "path": "folders/Sprites/Village Sprites.yy",
   },
 }

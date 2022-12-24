@@ -13,12 +13,12 @@ vy = ((moveDown - moveUp) * walkSpeed) * !global.interacting;
 
 // If moving
 if (vx != 0 || vy != 0) {
-	if !collision_point(x+vx,y,decoration_object_parent,true,true) {	
+	if !collision_rectangle(x+vx-7,y-1,x+vx+7,y+7,decoration_object_parent,true,true) {	
 	x += vx;
 	}
 	
-	if !collision_point(x,y+vy,decoration_object_parent,true,true) {	
-	y += vy;
+	if !collision_rectangle(x-7,y+vy-1,x+7,y+vy+7,decoration_object_parent,true,true) {	
+	y += vy;  
 	}
 }
 
