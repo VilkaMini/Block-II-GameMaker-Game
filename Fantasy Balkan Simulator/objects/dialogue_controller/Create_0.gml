@@ -1,4 +1,4 @@
-/// @description Create variables
+ /// @description Create variables
 
 if (!variable_global_exists("dialogueTextToDraw")){global.dialogueTextToDraw = "Sample";}
 if (!variable_global_exists("_selected")){global._selected = noone;}
