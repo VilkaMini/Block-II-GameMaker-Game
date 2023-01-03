@@ -1,5 +1,3 @@
- /// @description Player Movement
-
 // Check keys for movement
 moveRight = keyboard_check(ord("D"))
 moveLeft = keyboard_check(ord("A"))
@@ -70,3 +68,6 @@ if (vx != 0 || vy != 0) {
 
 // Depth sorting
 depth =-y;
+
+if(alarm[0] == -1)
+alarm[0]=10;
