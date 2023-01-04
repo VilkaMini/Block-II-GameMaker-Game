@@ -1,4 +1,4 @@
-// Fade out
+/// @description Fade out, then destroy slime
 
 if (image_alpha > 0) {
 	image_alpha -= fadeSpeed;

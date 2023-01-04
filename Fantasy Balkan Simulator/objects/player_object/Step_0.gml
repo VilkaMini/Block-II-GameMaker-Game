@@ -44,25 +44,56 @@ else {
 if (vx != 0 || vy != 0) {
 	
 	// Change sprite to match walking direction
-	// right
-	if (vx > 0) {
+	// walk right
+	if (vx = 2) {
 		sprite_index = player_walk_right_sprite;
-		dir = 0;
+		facedirection = 0;
 	}
-	// left
-	if (vx < 0) {
+	// roll right
+	if (vx = 3) {
+		sprite_index = player_roll_right_sprite;
+		facedirection = 0;
+	}
+	// walk left
+	if (vx = -2) {
 		sprite_index = player_walk_left_sprite;
-		dir = 2;
+		facedirection = 2;
 	}
-	// down
-	if (vy > 0) {
+	// roll left
+	if (vx = -3) {
+		sprite_index = player_roll_left_sprite;
+		facedirection = 2;
+	}
+	// walk down
+	if (vy = 2) {
 		sprite_index = player_walk_down_sprite;
-		dir = 3;
+		facedirection = 3;
 	}
-	// up
-	if (vy < 0) {
+	// roll down
+	if (vy = 3) {
+		sprite_index = player_roll_down_sprite;
+		facedirection = 3;
+	}
+	// walk up
+	if (vy = -2) {
 		sprite_index = player_walk_up_sprite;
-		dir = 1;
+		facedirection = 1;
+	}
+	// roll up
+	if (vy = -3) {
+		sprite_index = player_roll_up_sprite;
+		facedirection = 1;
+	}
+}
+
+// When no longer moving
+if (vx == 0 && vy == 0) {
+	// Change sprite based on last direction
+	switch facedirection {
+		case 0: sprite_index = player_walk_right_sprite; break;
+		case 1: sprite_index = player_walk_up_sprite; break;
+		case 2: sprite_index = player_walk_left_sprite; break;
+		case 3: sprite_index = player_walk_down_sprite; break;
 	}
 }
 
