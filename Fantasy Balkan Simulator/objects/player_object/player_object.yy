@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "player_object",
   "spriteId": {
-    "name": "player_walk_down_sprite",
-    "path": "sprites/player_walk_down_sprite/player_walk_down_sprite.yy",
+    "name": "player_face_down_sprite",
+    "path": "sprites/player_face_down_sprite/player_face_down_sprite.yy",
   },
   "solid": false,
   "visible": true,

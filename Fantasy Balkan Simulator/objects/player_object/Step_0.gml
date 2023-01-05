@@ -6,17 +6,17 @@ moveDown = keyboard_check(ord("S"))
 
 
 // Calculate movement
-vx = ((moveRight - moveLeft) * walkSpeed) * !global.interacting;
-vy = ((moveDown - moveUp) * walkSpeed) * !global.interacting;
+xVelocity = ((moveRight - moveLeft) * moveSpeed) * !global.interacting;
+yVelocity = ((moveDown - moveUp) * moveSpeed) * !global.interacting;
 
 // If moving
-if (vx != 0 || vy != 0) {
-	if !collision_rectangle(x+vx-7,y-7,x+vx+7,y-1,decoration_object_parent,true,true) {	
-	x += vx;
+if (xVelocity != 0 || yVelocity != 0) {
+	if !collision_rectangle(x+xVelocity-7,y-7,x+xVelocity+7,y-1,decoration_object_parent,true,true) {	
+	x += xVelocity;
 	}
 	
-	if !collision_rectangle(x-7,y+vy-7,x+7,y+vy-1,decoration_object_parent,true,true) {	
-	y += vy;  
+	if !collision_rectangle(x-7,y+yVelocity-7,x+7,y+yVelocity-1,decoration_object_parent,true,true) {	
+	y += yVelocity;  
 	}
 }
 
@@ -40,65 +40,42 @@ else {
 	show_debug_message("No NPC");
 }
 
-// Check for movement
-if (vx != 0 || vy != 0) {
-	
-	// Change sprite to match walking direction
-	// walk right
-	if (vx = 2) {
-		sprite_index = player_walk_right_sprite;
-		facedirection = 0;
+// Check for horizontal movement
+if (xVelocity != 0) {
+	// Change sprite based direction
+	switch xVelocity {
+		case 2: sprite_index = player_face_right_sprite; faceDirection = 0; break;
+		case 3: sprite_index = player_roll_right_sprite; faceDirection = 0; break;
+		case -2: sprite_index = player_face_left_sprite; faceDirection = 2; break;
+		case -3: sprite_index = player_roll_left_sprite; faceDirection = 2; break;
 	}
-	// roll right
-	if (vx = 3) {
-		sprite_index = player_roll_right_sprite;
-		facedirection = 0;
+}	
+
+// Check for vertical movement
+if (yVelocity != 0) {
+	// Change sprite based direction
+	switch yVelocity {
+		case -2: sprite_index = player_face_up_sprite; faceDirection = 1; break;
+		case -3: sprite_index = player_roll_up_sprite; faceDirection = 1; break;
+		case 2: sprite_index = player_face_down_sprite; faceDirection = 3; break;
+		case 3: sprite_index = player_roll_down_sprite; faceDirection = 3; break;
 	}
-	// walk left
-	if (vx = -2) {
-		sprite_index = player_walk_left_sprite;
-		facedirection = 2;
-	}
-	// roll left
-	if (vx = -3) {
-		sprite_index = player_roll_left_sprite;
-		facedirection = 2;
-	}
-	// walk down
-	if (vy = 2) {
-		sprite_index = player_walk_down_sprite;
-		facedirection = 3;
-	}
-	// roll down
-	if (vy = 3) {
-		sprite_index = player_roll_down_sprite;
-		facedirection = 3;
-	}
-	// walk up
-	if (vy = -2) {
-		sprite_index = player_walk_up_sprite;
-		facedirection = 1;
-	}
-	// roll up
-	if (vy = -3) {
-		sprite_index = player_roll_up_sprite;
-		facedirection = 1;
-	}
-}
+}	
 
 // When no longer moving
-if (vx == 0 && vy == 0) {
+if (xVelocity == 0 && yVelocity == 0) {
 	// Change sprite based on last direction
-	switch facedirection {
-		case 0: sprite_index = player_walk_right_sprite; break;
-		case 1: sprite_index = player_walk_up_sprite; break;
-		case 2: sprite_index = player_walk_left_sprite; break;
-		case 3: sprite_index = player_walk_down_sprite; break;
+	switch faceDirection {
+		case 0: sprite_index = player_face_right_sprite; break;
+		case 1: sprite_index = player_face_up_sprite; break;
+		case 2: sprite_index = player_face_left_sprite; break;
+		case 3: sprite_index = player_face_down_sprite; break;
 	}
 }
 
 // Depth sorting
 depth =-y;
 
+// Start slime trail
 if(alarm[0] == -1)
 alarm[0]=10;

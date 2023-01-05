@@ -1,3 +1,3 @@
 /// @description Sprinting
 
-walkSpeed = 3;
+moveSpeed = 3;

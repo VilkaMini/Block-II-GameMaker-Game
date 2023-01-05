@@ -1,10 +1,10 @@
 /// @description Main
 
 // Variables
-walkSpeed = 2;
-vx = 0;
-vy = 0;
-facedirection = 3;
+moveSpeed = 2;
+xVelocity = 0;
+yVelocity = 0;
+faceDirection = 3;
 moveRight = 0;
 moveLeft = 0;
 moveUp = 0;
