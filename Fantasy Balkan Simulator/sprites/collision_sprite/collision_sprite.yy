@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "collision_sprite",
   "bboxMode": 2,
-  "collisionKind": 1,
+  "collisionKind": 5,
   "type": 0,
   "origin": 7,
   "preMultiplyAlpha": false,
