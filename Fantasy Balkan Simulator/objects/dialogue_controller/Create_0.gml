@@ -4,6 +4,10 @@ if (!variable_global_exists("dialogueTextToDraw")){global.dialogueTextToDraw = "
 if (!variable_global_exists("_selected")){global._selected = noone;}
 answer_picked = [-1, -1, -1, -1];
 
+one = 0;
+two = 0;
+three = 0;
+
 global.array_quests = 
 [
 	["NotCompleted", "Aria : *visible discontent* Come Putik.. I hear the Beast nearby.", [
