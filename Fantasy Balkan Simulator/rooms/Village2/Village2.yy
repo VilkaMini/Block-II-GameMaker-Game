@@ -16,6 +16,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Dialogues","instances":[],"visible":true,"depth":-100100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_foreground","tilesetId":{"name":"village_tileset_foreground","path":"tilesets/village_tileset_foreground/village_tileset_foreground.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":60,"SerialiseHeight":60,"TileCompressedData":[
 -1767,-2147483648,1,6,-182,-2147483648,3,6,-2147483648,7,-56,-2147483648,3,6,-2147483648,6,-58,-2147483648,1,6,-162,-2147483648,1,6,-10,-2147483648,1,22,-60,-2147483648,1,6,-3,-2147483648,1,7,-59,-2147483648,1,0,-10,-2147483648,1,6,-32,-2147483648,5,6,-2147483648,-2147483648,6,6,-13,-2147483648,1,0,-42,-2147483648,1,0,
 -16,-2147483648,4,0,-2147483648,-2147483648,6,-45,-2147483648,1,6,-65,-2147483648,-2,6,2,-2147483648,6,-44,-2147483648,-2,0,-14,-2147483648,1,6,-45,-2147483648,1,0,-14,-2147483648,1,6,-7,-2147483648,1,6,-34,-2147483648,-3,6,1,0,-11,-2147483648,1,6,-5,-2147483648,-4,6,-35,-2147483648,-3,0,-5,6,-8,-2147483648,
