@@ -27,8 +27,9 @@ global.array_quests =
 			["NotSelected", "Say nothing", "...", []]
 		]
 	],
-	["NotCompleted",
+	["NotCompleted","Prompt",[
 		[]
+		]
 	]
 ]
 
