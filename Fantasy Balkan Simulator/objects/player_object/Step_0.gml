@@ -31,8 +31,17 @@ if (npcNearby){
 			}
 			case false: {
 				global.interacting = true;
-				break;
+				show_debug_message("")
+				if (global.array_quests[npcNearby.char_quest][0] != "Started" && global.array_quests[npcNearby.char_quest][0] != "Completed" && global.quest_active != true){
+					global.array_quests[npcNearby.char_quest][0] = "Started";
+					global.quest_active = true;
 				}
+				else if (global.array_quests[npcNearby.char_quest][0] == "Completed") {
+					saying_index = random_range(0, array_length(global.village_folk_sayings));
+					global._prompt = global.village_folk_sayings[saying_index];
+				}
+				break;
+			}
 		}
 	}
 }
