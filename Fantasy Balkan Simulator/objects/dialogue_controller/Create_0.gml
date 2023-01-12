@@ -1,6 +1,5 @@
  /// @description Create variables
 
-if (!variable_global_exists("dialogueTextToDraw")){global.dialogueTextToDraw = "Sample";}
 if (!variable_global_exists("_selected")){global._selected = noone;}
 answer_picked = [-1, -1, -1, -1, -1];
 global.quest_active = false;

@@ -1,8 +1,1 @@
 /// @description Variables
-
-questActive = false;
-
-
-
-
-
