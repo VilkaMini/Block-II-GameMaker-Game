@@ -10,7 +10,7 @@ global.array_quests =
 [
 	["NotCompleted", "Aria : *visible discontent* Come Putik.. I hear the Beast nearby.", [
 			["NotSelected", "Who was that?", "Aria : This is a contested zone, so a V2 probably, an insolent one as well..", [
-					["NotSubSelected", "Mountain Dogs what’s that", "Aria : A Slur those Insolent V2 call us.", [
+					["NotSubSelected", "Mountain Dogs what's that", "Aria : A Slur those Insolent V2 call us.", [
 							["NotSubSubSelected", "Say nothing", "...", []]
 						]
 					],
@@ -20,7 +20,7 @@ global.array_quests =
 					]
 				]
 			],
-			["NotSelected", "Mountain Dogs what’s that ", "Aria: A Slur those Insolent V2 call us.", [
+			["NotSelected", "Mountain Dogs what's that ", "Aria: A Slur those Insolent V2 call us.", [
 					["NotSubSelected", "Say nothing", "...", []]
 				]
 			],
@@ -34,7 +34,7 @@ global.array_quests =
 ]
 
 global.village_folk_sayings = [
-"Jews are bad!",
+"Hitler shot himself!",
 "Mountain Dogs will die!",
 "I can't use the N word anymore? That is fucked up.",
 "Meet me outside, how about that?",
