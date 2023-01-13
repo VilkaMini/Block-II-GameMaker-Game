@@ -34,6 +34,7 @@ global.array_quests =
 ]
 
 global.village_folk_sayings = [
+"Dam bro, for real.",
 "Hitler shot himself!",
 "Mountain Dogs will die!",
 "I can't use the N word anymore? That is fucked up.",
