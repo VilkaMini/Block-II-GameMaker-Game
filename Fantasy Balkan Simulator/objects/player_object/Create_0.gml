@@ -1,7 +1,7 @@
 /// @description Main
 
 // Variables
-moveSpeed = 2;
+moveSpeed = 1.5;
 xVelocity = 0;
 yVelocity = 0;
 faceDirection = 3;
