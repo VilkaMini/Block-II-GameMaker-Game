@@ -8,7 +8,7 @@
     {"id":{"name":"post_3x1_sprite","path":"sprites/post_3x1_sprite/post_3x1_sprite.yy",},"order":3,},
     {"id":{"name":"spr_highlighted_game_button","path":"sprites/spr_highlighted_game_button/spr_highlighted_game_button.yy",},"order":9,},
     {"id":{"name":"path_v2_to_v1","path":"paths/path_v2_to_v1/path_v2_to_v1.yy",},"order":1,},
-    {"id":{"name":"Village2","path":"rooms/Village2/Village2.yy",},"order":1,},
+    {"id":{"name":"Villages","path":"rooms/Villages/Villages.yy",},"order":1,},
     {"id":{"name":"long_planter_object","path":"objects/long_planter_object/long_planter_object.yy",},"order":5,},
     {"id":{"name":"collision_object","path":"objects/collision_object/collision_object.yy",},"order":6,},
     {"id":{"name":"player_roll_down_sprite","path":"sprites/player_roll_down_sprite/player_roll_down_sprite.yy",},"order":8,},
@@ -112,7 +112,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"Map","path":"rooms/Map/Map.yy",},},
-    {"roomId":{"name":"Village2","path":"rooms/Village2/Village2.yy",},},
+    {"roomId":{"name":"Villages","path":"rooms/Villages/Villages.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

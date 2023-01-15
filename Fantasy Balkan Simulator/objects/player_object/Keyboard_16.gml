@@ -1,3 +1,3 @@
 /// @description Sprinting
 
-moveSpeed = 3;
+speedModifier = 1.5;

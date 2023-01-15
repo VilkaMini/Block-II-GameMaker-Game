@@ -1,5 +1,5 @@
 /// @description Drop items
-if (room == Village2){
+if (room == Villages){
 	// If there is an item in the slot
 	if !(global.item_array[item_pos][item_type] == item_none){
 	    var _type = global.item_array[item_pos][item_type];

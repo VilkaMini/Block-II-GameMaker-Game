@@ -12,10 +12,10 @@ else {
 if(path_position == 1){
 	// Entering objects
 	if (global.char_pos == 0 && keyboard_check(vk_enter)){
-		room_goto(Village2);
+		room_goto(Villages);
 	}
 	else if (global.char_pos == 2 && keyboard_check(vk_enter)){
-		room_goto(Village2);
+		room_goto(Villages);
 	}
 	
 	// Movement from v2 gates 

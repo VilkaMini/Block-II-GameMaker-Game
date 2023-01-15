@@ -10,7 +10,7 @@ _y = 550;
 quest_track = step_1 + step_2 + step_3 + step_4;
 
 // If the room is village
-if (room == Village2 && global.interacting){
+if (room == Villages && global.interacting){
 	// Goes through quest array
 	for (var i=0; i<array_length(global.array_quests); i++){
 		// If quest is not complete

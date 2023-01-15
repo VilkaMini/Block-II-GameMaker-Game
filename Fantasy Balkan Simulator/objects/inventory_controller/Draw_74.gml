@@ -9,7 +9,7 @@ var _xx = 683-128;
 var _yy = 720;
 
 // If the room is village
-if (room == Village2){
+if (room == Villages){
 	// Draw inventory box
 	draw_sprite(spr_inventory, -1, 683, 720);
 	draw_sprite(spr_selected, item_pos_index, _xx + _item_x, _yy+5);

@@ -6,16 +6,16 @@ moveDown = keyboard_check(ord("S"))
 
 
 // Calculate movement
-xVelocity = ((moveRight - moveLeft) * moveSpeed) * !global.interacting;
-yVelocity = ((moveDown - moveUp) * moveSpeed) * !global.interacting;
+xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting;
+yVelocity = ((moveDown - moveUp) * (moveSpeed * speedModifier)) * !global.interacting;
 
 // If moving
 if (xVelocity != 0 || yVelocity != 0) {
-	if !collision_rectangle(x+xVelocity-7,y-7,x+xVelocity+7,y-1,decoration_object_parent,true,true) {	
+	if !collision_rectangle(x+xVelocity-7.5,y-7,x+xVelocity+7.5,y-1,decoration_object_parent,true,true) {	
 	x += xVelocity;
 	}
 	
-	if !collision_rectangle(x-7,y+yVelocity-7,x+7,y+yVelocity-1,decoration_object_parent,true,true) {	
+	if !collision_rectangle(x-7.5,y+yVelocity-7,x+7.5,y+yVelocity-1,decoration_object_parent,true,true) {	
 	y += yVelocity;  
 	}
 }

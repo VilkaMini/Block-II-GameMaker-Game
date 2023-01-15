@@ -1,3 +1,3 @@
 /// @description Stop Sprinting
 
-moveSpeed = 2;
+speedModifier = 1;
