@@ -11,10 +11,10 @@ else {
 // If the path is stopped, then the check for movement can be repeated
 if(path_position == 1){
 	// Entering objects
-	if (global.char_pos == 0 && keyboard_check(vk_enter)){
+	if (global.char_pos == 0 && keyboard_check_pressed(vk_space)){
 		room_goto(Villages);
 	}
-	else if (global.char_pos == 2 && keyboard_check(vk_enter)){
+	else if (global.char_pos == 2 && keyboard_check_pressed(vk_space)){
 		room_goto(Villages);
 	}
 	

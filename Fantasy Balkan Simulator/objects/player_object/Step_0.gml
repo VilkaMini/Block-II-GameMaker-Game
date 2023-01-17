@@ -31,7 +31,6 @@ if (npcNearby){
 			}
 			case false: {
 				global.interacting = true;
-				show_debug_message("")
 				if (global.array_quests[npcNearby.char_quest][0] != "Started" && global.array_quests[npcNearby.char_quest][0] != "Completed" && global.quest_active != true){
 					global.array_quests[npcNearby.char_quest][0] = "Started";
 					global.quest_active = true;
@@ -45,8 +44,14 @@ if (npcNearby){
 		}
 	}
 }
-else {
-	show_debug_message("No NPC");
+if (collision_rectangle(x-10, y-10, x+10, y+10, village_exit_object, true, true)){
+	exitNearby = true;
+	if (keyboard_check_pressed(vk_space)){
+		room_goto(Map);
+	}
+}
+else{
+	exitNearby = false;
 }
 
 // Check for horizontal movement
