@@ -13,16 +13,15 @@ moveDown = 0;
 
 npcNearby = noone;
 global.interacting = false;
+global.interacting_object = false;
 
-if (global.char_pos == 0 && variable_global_exists("char_v2_positionX")){
-	x = global.char_v2_positionX;
-	y = global.char_v2_positionY;
-}
-else if (global.char_pos == 2 &&  variable_global_exists("char_v1_positionX")){
-	x = global.char_v1_positionX;
-	y = global.char_v1_positionY;
-}
-else {
-	x = 264;
+if (global.char_pos == 0){
+	x = 250;
 	y = 880;
 }
+else if (global.char_pos == 2){
+	x = 1424;
+	y = 935;
+}
+
+

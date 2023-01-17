@@ -1,3 +1,10 @@
+// Drawing specs
+draw_set_font(pixelated_font);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_color(c_black);
+
+
 // Check keys for movement
 moveRight = keyboard_check(ord("D"))
 moveLeft = keyboard_check(ord("A"))
@@ -6,8 +13,8 @@ moveDown = keyboard_check(ord("S"))
 
 
 // Calculate movement
-xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting;
-yVelocity = ((moveDown - moveUp) * (moveSpeed * speedModifier)) * !global.interacting;
+xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting * !global.interacting_object;
+yVelocity = ((moveDown - moveUp) * (moveSpeed * speedModifier)) * !global.interacting  * !global.interacting_object;
 
 // If moving
 if (xVelocity != 0 || yVelocity != 0) {
@@ -22,7 +29,7 @@ if (xVelocity != 0 || yVelocity != 0) {
 
 // Check for nearby characters
 npcNearby = collision_rectangle(x-10, y-10, x+10, y+10, int_character_parent, true, true);
-if (npcNearby){
+if (npcNearby){	
 	if (keyboard_check_pressed(vk_space)){
 		switch global.interacting{
 			case true: {
@@ -31,7 +38,6 @@ if (npcNearby){
 			}
 			case false: {
 				global.interacting = true;
-				show_debug_message("")
 				if (global.array_quests[npcNearby.char_quest][0] != "Started" && global.array_quests[npcNearby.char_quest][0] != "Completed" && global.quest_active != true){
 					global.array_quests[npcNearby.char_quest][0] = "Started";
 					global.quest_active = true;
