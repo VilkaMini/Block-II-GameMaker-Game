@@ -882,6 +882,7 @@
     {"name":"inst_2753966A","path":"rooms/Villages/Villages.yy",},
     {"name":"inst_D85F428","path":"rooms/Villages/Villages.yy",},
     {"name":"inst_58E08BC7","path":"rooms/Villages/Villages.yy",},
+    {"name":"inst_50192A2A","path":"rooms/Villages/Villages.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

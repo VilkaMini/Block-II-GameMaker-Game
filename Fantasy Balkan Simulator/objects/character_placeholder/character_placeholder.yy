@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "character_placeholder",
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "player_face_down_sprite",
+    "path": "sprites/player_face_down_sprite/player_face_down_sprite.yy",
   },
   "solid": false,
   "visible": true,
