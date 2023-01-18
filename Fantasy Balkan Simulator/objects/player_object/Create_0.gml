@@ -16,11 +16,11 @@ npcNearby = noone;
 global.interacting = false;
 
 if (global.char_pos == 0){
-	x = 264;
+	x = 73;
 	y = 880;
 }
 else if (global.char_pos == 2){
-	x = 1424;
+	x = 1312;
 	y = 935;
 }
 
