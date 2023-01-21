@@ -1,4 +1,6 @@
 /// @description Minigamecontroller
+_centerX += 5;
+
 if (_round2 && _diameter <= 400){
 	_diameter += _incSize;
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Item",
+  "name": "item_scrap_iron",
   "spriteId": {
     "name": "scrap_greybox",
     "path": "sprites/scrap_greybox/scrap_greybox.yy",
@@ -29,7 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_id","path":"objects/item_parent_obj/item_parent_obj.yy",},"objectId":{"name":"item_parent_obj","path":"objects/item_parent_obj/item_parent_obj.yy",},"value":"\"Scrap Iron\"",},
+  ],
   "parent": {
     "name": "Items",
     "path": "folders/Objects/Items.yy",
