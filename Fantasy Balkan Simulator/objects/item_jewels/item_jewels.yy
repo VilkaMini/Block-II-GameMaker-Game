@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "item_scrap_iron",
+  "name": "item_jewels",
   "spriteId": {
     "name": "metal_scrap_item",
     "path": "sprites/metal_scrap_item/metal_scrap_item.yy",
