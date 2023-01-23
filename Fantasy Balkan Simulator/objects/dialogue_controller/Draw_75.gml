@@ -23,7 +23,15 @@ if (room == Villages && global.interacting){
 					item = global.inventory[k];
 					// Check if the item is collected
 					if ((item[item_name] == condition && item[item_owned] == item[item_max]) || condition == "" && global.quest_active == false){
-						show_debug_message(npc_counter[i]);
+						if (global.array_quests[npc_counter[i]][3] != ""){
+							for (var p=0; p<array_length(global.inventory); p++){
+								item_give = global.inventory[p];
+								if (global.array_quests[npc_counter[i]][3] == item_give[0]){
+									global.inventory[p][item_owned] += 1;
+									break;
+								}
+							}
+						}
 						npc_dialogue_c = npc_counter[i];
 						npc_counter[i] += 1;
 						global.quest_active = true;

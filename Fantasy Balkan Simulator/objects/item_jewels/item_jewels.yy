@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "item_jewels",
   "spriteId": {
-    "name": "metal_scrap_item",
-    "path": "sprites/metal_scrap_item/metal_scrap_item.yy",
+    "name": "jewel_item",
+    "path": "sprites/jewel_item/jewel_item.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_id","path":"objects/item_parent_obj/item_parent_obj.yy",},"objectId":{"name":"item_parent_obj","path":"objects/item_parent_obj/item_parent_obj.yy",},"value":"\"Scrap Iron\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_id","path":"objects/item_parent_obj/item_parent_obj.yy",},"objectId":{"name":"item_parent_obj","path":"objects/item_parent_obj/item_parent_obj.yy",},"value":"\"Jewels\"",},
   ],
   "parent": {
     "name": "Items",
