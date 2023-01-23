@@ -15,6 +15,14 @@ if (room == Villages && global.interacting){
 		if (npc_names[i] == char_name && global.quest_active == false){
 			// Check if the the quest is the last one
 			if (npc_counter[i] <= npc_counter_max[i]){
+				condition = global.array_quests[npc_counter[i]][2];
+				for (var k=0; k<array_length(global.inventory); k++){
+					
+				}
+				if (true){
+					
+				}
+				
 				npc_dialogue_c = npc_counter[i];
 				npc_counter[i] += 1;
 				global.quest_active = true;
