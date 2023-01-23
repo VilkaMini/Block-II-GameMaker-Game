@@ -17,3 +17,10 @@ global.inventory = [
 #macro item_max 1
 #macro item_sprites 2
 #macro item_owned 3
+
+#macro vyke 0
+#macro kondor 1
+#macro shiny_tree 2
+#macro old_man 3
+#macro granny 4
+#macro aria 5

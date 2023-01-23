@@ -1,16 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "int_character_parent",
-  "spriteId": null,
+  "name": "vyke",
+  "spriteId": {
+    "name": "vyke_spr",
+    "path": "sprites/vyke_spr/vyke_spr.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "decoration_object_parent",
-    "path": "objects/decoration_object_parent/decoration_object_parent.yy",
+    "name": "int_character_parent",
+    "path": "objects/int_character_parent/int_character_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,10 +28,10 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"char_name","varType":2,"value":"\"Sunflower man\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  "properties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Vyke\"",},
   ],
-  "overriddenProperties": [],
   "parent": {
     "name": "Characters",
     "path": "folders/Objects/Characters.yy",
