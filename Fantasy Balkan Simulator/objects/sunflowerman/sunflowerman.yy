@@ -29,7 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Vyke\"",},
+  ],
   "parent": {
     "name": "Characters",
     "path": "folders/Objects/Characters.yy",

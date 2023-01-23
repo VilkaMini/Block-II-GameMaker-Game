@@ -27,18 +27,12 @@ if (npcNearby){
 		switch global.interacting{
 			case true: {
 				global.interacting = false;
+				global.quest_active = false;
 				break;
 			}
 			case false: {
 				global.interacting = true;
-				if (global.array_quests[npcNearby.char_quest][0] != "Started" && global.array_quests[npcNearby.char_quest][0] != "Completed" && global.quest_active != true){
-					global.array_quests[npcNearby.char_quest][0] = "Started";
-					global.quest_active = true;
-				}
-				else if (global.array_quests[npcNearby.char_quest][0] == "Completed") {
-					saying_index = random_range(0, array_length(global.village_folk_sayings));
-					global._prompt = global.village_folk_sayings[saying_index];
-				}
+				global.char_name_pass = npcNearby.char_name;
 				break;
 			}
 		}
