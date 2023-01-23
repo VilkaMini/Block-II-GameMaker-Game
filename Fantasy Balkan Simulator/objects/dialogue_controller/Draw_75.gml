@@ -11,10 +11,14 @@ _y = 550;
 if (room == Villages && global.interacting){
 	char_name = global.char_name_pass;
 	for (var i=0; i<5; i++){
+		// Check for interactable character
 		if (npc_names[i] == char_name && global.quest_active == false){
-			npc_dialogue_c = npc_counter[i];
-			npc_counter[i] += 1;
-			global.quest_active = true;
+			// Check if the the quest is the last one
+			if (npc_counter[i] <= npc_counter_max[i]){
+				npc_dialogue_c = npc_counter[i];
+				npc_counter[i] += 1;
+				global.quest_active = true;
+			}
 		}
 	}
 	

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "sunflowerman",
+  "name": "vyke",
   "spriteId": {
-    "name": "SunflowerMan",
-    "path": "sprites/SunflowerMan/SunflowerMan.yy",
+    "name": "vyke_spr",
+    "path": "sprites/vyke_spr/vyke_spr.yy",
   },
   "solid": false,
   "visible": true,
