@@ -1,5 +1,7 @@
 /// @description Variables
 global.instances_to_delete = [];
+global.tree_active = false;
+global.tree_done = false;
 
 // [item_name, item_max, item_sprites, item_owned]
 global.inventory = [

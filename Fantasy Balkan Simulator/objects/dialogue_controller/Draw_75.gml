@@ -14,11 +14,9 @@ if (room == Villages && global.interacting){
 		// Check for interactable character
 		if (npc_names[i] == char_name && global.quest_active == false){
 			// Check if the the quest is the last one
-			show_debug_message(npc_names[i]);
 			if (npc_counter[i] <= npc_counter_max[i]){
 				condition = global.array_quests[npc_counter[i]][2];
 				// Go through inventory to check if condition is met
-				show_debug_message(condition);
 				for (var k=0; k<array_length(global.inventory); k++){
 					item = global.inventory[k];
 					// Check if the item is collected
