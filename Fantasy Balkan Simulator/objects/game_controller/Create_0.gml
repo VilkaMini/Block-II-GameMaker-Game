@@ -8,9 +8,10 @@ global.inventory = [
     ["Star",3,star_item,0],
 	["Jewels", 1,jewel_item, 0],
 	["Axe", 1,axe_item, 0],
-	["Grain", 3,wheat_item, 0],
+	["Wheat", 3,wheat_item, 0],
 	["Flour", 1, flour_item, 0],
 	["Fishing Rod", 1, fishing_rod_item, 0],
+	["Rare Materials", 3, rare_material_item, 0],
 ]
 
 #macro item_name 0
