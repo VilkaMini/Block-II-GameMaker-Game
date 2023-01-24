@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "serril",
   "spriteId": {
-    "name": "kondor_spr",
-    "path": "sprites/kondor_spr/kondor_spr.yy",
+    "name": "serril_spr",
+    "path": "sprites/serril_spr/serril_spr.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Kondor\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Serril\"",},
   ],
   "parent": {
     "name": "Characters",

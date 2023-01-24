@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Kondor\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"char_name","path":"objects/int_character_parent/int_character_parent.yy",},"objectId":{"name":"int_character_parent","path":"objects/int_character_parent/int_character_parent.yy",},"value":"\"Granny\"",},
   ],
   "parent": {
     "name": "Characters",

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "item_scrap_iron",
   "spriteId": {
-    "name": "scrap_greybox",
-    "path": "sprites/scrap_greybox/scrap_greybox.yy",
+    "name": "metal_scrap_item",
+    "path": "sprites/metal_scrap_item/metal_scrap_item.yy",
   },
   "solid": false,
   "visible": true,

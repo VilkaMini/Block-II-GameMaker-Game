@@ -1,8 +1,8 @@
 /// @description Map Movement 
 
 // Stop along your path
-if keyboard_check(vk_space){
-	path_speed = 0;	
+if (global.fish_active && !global.fish_done){
+	path_speed = 0;
 }
 else if keyboard_check(vk_shift){
     path_speed = 100;
