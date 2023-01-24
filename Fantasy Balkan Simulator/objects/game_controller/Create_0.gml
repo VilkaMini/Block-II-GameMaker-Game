@@ -1,7 +1,9 @@
 /// @description Variables
 global.instances_to_delete = [];
 global.tree_active = false;
-global.tree_done = false;
+global.tree_done = false
+global.fish_active = false;
+global.fish_done = false;
 
 // [item_name, item_max, item_sprites, item_owned]
 global.inventory = [
@@ -10,10 +12,11 @@ global.inventory = [
     ["Star",3,star_item,0],
 	["Jewels", 1,jewel_item, 0],
 	["Axe", 1,axe_item, 0],
-	["Wheat", 3,wheat_item, 0],
+	["Grain", 1,wheat_item, 0],
 	["Flour", 1, flour_item, 0],
 	["Fishing Rod", 1, fishing_rod_item, 0],
 	["Rare Materials", 3, rare_material_item, 0],
+	["Pouch of Gold", 1, item_rare_material, 0],
 ]
 
 #macro item_name 0

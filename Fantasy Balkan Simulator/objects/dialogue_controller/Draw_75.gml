@@ -31,7 +31,10 @@ if (room == Villages && global.interacting){
 							}
 						}
 						npc_dialogue_c = npc_counter[i];
-						npc_counter[i] += 1;
+						if (npc_counter[i] != npc_counter_max[i]){
+							npc_counter[i] += 1;
+							global.array_quests[npc_counter[i]][0] = "Completed";
+						}
 						global.quest_active = true;
 					}
 				}
