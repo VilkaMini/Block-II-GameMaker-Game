@@ -15,6 +15,7 @@ if (room != StartMenu){
 	}
 }
 
-
+draw_sprite_ext(coin_item, -1, _x, _y+620, 2, 2, 0, c_white, 1);
+draw_text_ext(_x + 55, _y+620-20, string(global.pay_coins), 0, 100);
 
 
