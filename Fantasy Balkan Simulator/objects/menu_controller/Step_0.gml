@@ -27,7 +27,7 @@ if (inst != noone && alarm_done){
 			text_pos = y - 13;
 		}
 		
-		audio_play_sound(button_exit_game, 1,0);
+		audio_play_sound(Menu_button_sound, 1,0);
 		switch inst.buttonNumber {
 			case 0: {room_goto(Map);} break;
 			case 2: {global.exit_clicked = true;} break;

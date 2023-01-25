@@ -40,5 +40,6 @@ for (var i=0; i<array_length(global.inventory); i++){
 
 if (playerNearby && fish_bool && global.fish_active && !global.fish_done){
 	draw_sprite(textbox, -1, _x, _y-45);
+	audio_play_sound(star, 1, 0);
 	draw_text_ext(_x, _y-45, "something caught onto the bait! It's really heavy! It's a Star!", 25, 900);
 }
