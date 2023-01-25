@@ -72,6 +72,7 @@
     {"id":{"name":"post_1x1_object","path":"objects/post_1x1_object/post_1x1_object.yy",},"order":1,},
     {"id":{"name":"pixelated_font_startmenu","path":"fonts/pixelated_font_startmenu/pixelated_font_startmenu.yy",},"order":3,},
     {"id":{"name":"lamp_post_sprite","path":"sprites/lamp_post_sprite/lamp_post_sprite.yy",},"order":0,},
+    {"id":{"name":"tree_cut_down","path":"sprites/tree_cut_down/tree_cut_down.yy",},"order":22,},
     {"id":{"name":"wheat_item","path":"sprites/wheat_item/wheat_item.yy",},"order":0,},
     {"id":{"name":"wood_pile_sprite","path":"sprites/wood_pile_sprite/wood_pile_sprite.yy",},"order":11,},
     {"id":{"name":"spr_game_button","path":"sprites/spr_game_button/spr_game_button.yy",},"order":8,},
