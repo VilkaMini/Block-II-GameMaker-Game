@@ -7,7 +7,7 @@
     "path": "sprites/fishing_spot/fishing_spot.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
