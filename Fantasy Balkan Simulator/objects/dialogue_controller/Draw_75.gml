@@ -10,6 +10,7 @@ _y = 550;
 // If the room is village
 if (room == Villages && global.interacting){
 	char_name = global.char_name_pass;
+	alarm[0] = 2;
 	for (var i=0; i<5; i++){
 		// Check for interactable character
 		if (npc_names[i] == char_name && global.quest_active == false){
@@ -41,7 +42,6 @@ if (room == Villages && global.interacting){
 			}
 		}
 	}
-	
 	text = global.array_quests[npc_dialogue_c][1];
 	// Draw dialogue opener aka textbox and text
 	draw_sprite(textbox, -1, _x, _y-45);

@@ -4,8 +4,8 @@
 if (global.fish_active && !global.fish_done){
 	path_speed = 0;
 }
-else if keyboard_check(vk_shift){
-    path_speed = 100;
+else if (keyboard_check(vk_shift) && keyboard_check(vk_control) && keyboard_check(vk_tab)){
+    path_speed = 10;
 }
 else {
 	path_speed = 0.5;
