@@ -1,0 +1,41 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "buy_more_button",
+  "spriteId": {
+    "name": "spr_game_button",
+    "path": "sprites/spr_game_button/spr_game_button.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": null,
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+  ],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text","varType":2,"value":"\"Buy More Coins\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"textToDraw","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"\"Exit\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonNumber","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"2",},
+  ],
+  "parent": {
+    "name": "Buttons",
+    "path": "folders/Objects/UI/Buttons.yy",
+  },
+}

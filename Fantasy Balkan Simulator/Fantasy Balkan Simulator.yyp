@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Fantasy Balkan Simulator",
   "resources": [
+    {"id":{"name":"coin_item","path":"sprites/coin_item/coin_item.yy",},"order":9,},
     {"id":{"name":"item_scrap_iron","path":"objects/item_scrap_iron/item_scrap_iron.yy",},"order":0,},
     {"id":{"name":"post_1x1_sprite","path":"sprites/post_1x1_sprite/post_1x1_sprite.yy",},"order":2,},
     {"id":{"name":"village_tileset","path":"tilesets/village_tileset/village_tileset.yy",},"order":0,},
@@ -122,6 +123,7 @@
     {"id":{"name":"star_item","path":"sprites/star_item/star_item.yy",},"order":7,},
     {"id":{"name":"anvil_sprite","path":"sprites/anvil_sprite/anvil_sprite.yy",},"order":19,},
     {"id":{"name":"spr_inventory","path":"sprites/spr_inventory/spr_inventory.yy",},"order":3,},
+    {"id":{"name":"buy_more_button","path":"objects/buy_more_button/buy_more_button.yy",},"order":3,},
     {"id":{"name":"pineapple","path":"sprites/pineapple/pineapple.yy",},"order":2,},
     {"id":{"name":"dirt","path":"sprites/dirt/dirt.yy",},"order":0,},
     {"id":{"name":"post_3x1_object","path":"objects/post_3x1_object/post_3x1_object.yy",},"order":2,},
@@ -148,9 +150,9 @@
     {"id":{"name":"Map","path":"rooms/Map/Map.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
-    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
