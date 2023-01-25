@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tree_object",
   "spriteId": {
-    "name": "tree_for_cutting",
-    "path": "sprites/tree_for_cutting/tree_for_cutting.yy",
+    "name": "big_tree_sprite",
+    "path": "sprites/big_tree_sprite/big_tree_sprite.yy",
   },
   "solid": false,
   "visible": true,
