@@ -7,7 +7,7 @@
     "path": "sprites/metal_scrap_item/metal_scrap_item.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
