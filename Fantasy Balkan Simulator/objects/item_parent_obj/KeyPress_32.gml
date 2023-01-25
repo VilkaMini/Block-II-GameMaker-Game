@@ -16,7 +16,7 @@ if (playerNearby){
 			}
 		}
 		else if (item[item_name] == item_id && item_id != "Scrap Iron"){
-			audio_play_sound(Pick_up_item, 1, 0);
+			audio_play_sound(Pick_up_item, 1, 0, 2);
 			global.inventory[i][item_owned] += 1;
 			array_push(global.instances_to_delete, id);
 			instance_destroy(id);

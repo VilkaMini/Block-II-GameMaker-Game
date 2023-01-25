@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Pick_up_item.mp3",
-  "duration": 0.0,
+  "duration": 0.75755,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
