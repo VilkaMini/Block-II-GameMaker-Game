@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Plains_village.mp3",
-  "duration": 80.3004,
+  "duration": 105.9004,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
