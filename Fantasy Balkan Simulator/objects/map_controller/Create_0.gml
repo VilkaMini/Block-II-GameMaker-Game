@@ -1,5 +1,6 @@
 /// @description Control character position on map
 if (!variable_global_exists("char_pos")){global.char_pos = 0;}
+audio_stop_all();
 
 // Position castle
 if (global.char_pos == 0){

@@ -18,7 +18,7 @@ global.inventory = [
 	["Flour", 1, flour_item, 0],
 	["Fishing Rod", 1, fishing_rod_item, 0],
 	["Rare Materials", 3, rare_material_item, 0],
-	["Pouch of Gold", 1, item_rare_material, 0],
+	["Pouch of Gold", 1, coin_puch, 0],
 ]
 
 #macro item_name 0

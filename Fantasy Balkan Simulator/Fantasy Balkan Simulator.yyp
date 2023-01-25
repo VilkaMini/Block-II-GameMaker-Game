@@ -50,6 +50,7 @@
     {"id":{"name":"tree_object","path":"objects/tree_object/tree_object.yy",},"order":18,},
     {"id":{"name":"chimney_object","path":"objects/chimney_object/chimney_object.yy",},"order":16,},
     {"id":{"name":"player_face_down_sprite","path":"sprites/player_face_down_sprite/player_face_down_sprite.yy",},"order":0,},
+    {"id":{"name":"coin_puch","path":"sprites/coin_puch/coin_puch.yy",},"order":10,},
     {"id":{"name":"player_face_left_sprite","path":"sprites/player_face_left_sprite/player_face_left_sprite.yy",},"order":2,},
     {"id":{"name":"little_item_counter","path":"fonts/little_item_counter/little_item_counter.yy",},"order":1,},
     {"id":{"name":"Map_asset","path":"sprites/Map_asset/Map_asset.yy",},"order":4,},
