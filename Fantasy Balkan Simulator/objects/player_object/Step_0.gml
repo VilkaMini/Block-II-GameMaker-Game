@@ -1,9 +1,8 @@
 // Check keys for movement
-moveRight = keyboard_check(ord("D"))
-moveLeft = keyboard_check(ord("A"))
-moveUp = keyboard_check(ord("W"))
-moveDown = keyboard_check(ord("S"))
-
+moveRight = keyboard_check(ord("D")) || keyboard_check(vk_right)
+moveLeft = keyboard_check(ord("A")) || keyboard_check(vk_left)
+moveUp = keyboard_check(ord("W")) || keyboard_check(vk_up)
+moveDown = keyboard_check(ord("S")) || keyboard_check(vk_down)
 
 // Calculate movement
 xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting * !global.interactingGeneric;
