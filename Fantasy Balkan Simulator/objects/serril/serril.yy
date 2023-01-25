@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "serril",
   "spriteId": {
-    "name": "serril_spr",
-    "path": "sprites/serril_spr/serril_spr.yy",
+    "name": "serril_sprite",
+    "path": "sprites/serril_sprite/serril_sprite.yy",
   },
   "solid": false,
   "visible": true,

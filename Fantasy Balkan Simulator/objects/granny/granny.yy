@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "granny",
   "spriteId": {
-    "name": "granny_spr",
-    "path": "sprites/granny_spr/granny_spr.yy",
+    "name": "marlene_sprite",
+    "path": "sprites/marlene_sprite/marlene_sprite.yy",
   },
   "solid": false,
   "visible": true,
