@@ -6,8 +6,8 @@ moveDown = keyboard_check(ord("S"))
 
 
 // Calculate movement
-xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting;
-yVelocity = ((moveDown - moveUp) * (moveSpeed * speedModifier)) * !global.interacting;
+xVelocity = ((moveRight - moveLeft) * (moveSpeed * speedModifier)) * !global.interacting * !global.interactingGeneric;
+yVelocity = ((moveDown - moveUp) * (moveSpeed * speedModifier)) * !global.interacting * !global.interactingGeneric;
 
 // If moving
 if (xVelocity != 0 || yVelocity != 0) {
@@ -33,6 +33,23 @@ if (npcNearby){
 			case false: {
 				global.interacting = true;
 				global.char_name_pass = npcNearby.char_name;
+				break;
+			}
+		}
+	}
+}
+npcGenericNearby = collision_rectangle(x-10, y-10, x+10, y+10, generic_npc, true, true);
+if (npcGenericNearby){
+	show_debug_message("?");
+	if (keyboard_check_pressed(vk_space)){
+		switch global.interactingGeneric{
+			case true: {
+				global.interactingGeneric = false;
+				break;
+			}
+			case false: {
+				global.talking = global.sayings[random_range(0, array_length(global.sayings))]
+				global.interactingGeneric = true;
 				break;
 			}
 		}

@@ -105,6 +105,7 @@
     {"id":{"name":"red_man","path":"objects/red_man/red_man.yy",},"order":1,},
     {"id":{"name":"star_greybox","path":"sprites/star_greybox/star_greybox.yy",},"order":1,},
     {"id":{"name":"menu_controller","path":"objects/menu_controller/menu_controller.yy",},"order":2,},
+    {"id":{"name":"generic_npc","path":"objects/generic_npc/generic_npc.yy",},"order":11,},
     {"id":{"name":"metal_detedctor_greybox","path":"sprites/metal_detedctor_greybox/metal_detedctor_greybox.yy",},"order":7,},
     {"id":{"name":"trigger_sprite","path":"sprites/trigger_sprite/trigger_sprite.yy",},"order":17,},
     {"id":{"name":"font_startmenu","path":"fonts/font_startmenu/font_startmenu.yy",},"order":0,},

@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "decoration_object_parent",
-    "path": "objects/decoration_object_parent/decoration_object_parent.yy",
+    "name": "generic_npc",
+    "path": "objects/generic_npc/generic_npc.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

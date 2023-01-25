@@ -5,6 +5,8 @@ global.tree_done = false
 global.fish_active = false;
 global.fish_done = false;
 global.show_message_purchase = false;
+global.interactingGeneric = false;
+global.talking = "";
 
 global.pay_coins = 99;
 

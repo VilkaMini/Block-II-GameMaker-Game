@@ -22,3 +22,14 @@ global.array_quests =
 	["NotCompleted","Aria: Hey there! You can go around villages freely? That is wonderful ! Say, there's this Plainlander, I'm truly fond of him but I rarely get to see him. He loves to craft but lacks the materials to do so, could I ask you to deliver some materials to him? As for their location, well.. They're scattered around the village","", ""],
 	["NotCompleted","Aria: What's this? Flowers? From Vyke? How wonderful! As for your recompense here's a Pickaxe. What to do with it? I don't know pick some rocks in the forest or something.. ","Flowers", ""],
 ]
+
+global.sayings = 
+[
+	"Welcome to the Terranova!",
+	"Bro get out!",
+	"You look tasty!",
+	"Jesus Christ is not real and should not be in any educational literature, that is a scam!",
+	"Alberto Heijn is a cocaine cartel, we all know that.",
+	"Hello.",
+	"I love Kondor!"
+]
