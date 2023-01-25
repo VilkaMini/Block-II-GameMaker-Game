@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "vyke",
   "spriteId": {
-    "name": "vyke_spr",
-    "path": "sprites/vyke_spr/vyke_spr.yy",
+    "name": "vyke_sprite",
+    "path": "sprites/vyke_sprite/vyke_sprite.yy",
   },
   "solid": false,
   "visible": true,

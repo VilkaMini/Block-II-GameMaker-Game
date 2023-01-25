@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "kondor",
   "spriteId": {
-    "name": "kondor_spr",
-    "path": "sprites/kondor_spr/kondor_spr.yy",
+    "name": "kondor_sprite",
+    "path": "sprites/kondor_sprite/kondor_sprite.yy",
   },
   "solid": false,
   "visible": true,

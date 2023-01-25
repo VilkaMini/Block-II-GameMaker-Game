@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "aria",
   "spriteId": {
-    "name": "aria_spr",
-    "path": "sprites/aria_spr/aria_spr.yy",
+    "name": "aria_sprite",
+    "path": "sprites/aria_sprite/aria_sprite.yy",
   },
   "solid": false,
   "visible": true,
