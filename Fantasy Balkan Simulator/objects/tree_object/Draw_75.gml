@@ -39,5 +39,6 @@ for (var i=0; i<array_length(global.inventory); i++){
 
 if (playerNearby && axe_bool && global.tree_active && !global.tree_done){
 	draw_sprite(textbox, -1, _x, _y-45);
+	audio_play_sound(star, 1, 0);
 	draw_text_ext(_x, _y-45, "there's something inside the tree... It's a Star!", 25, 900);
 }
