@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_id","path":"objects/item_parent_obj/item_parent_obj.yy",},"objectId":{"name":"item_parent_obj","path":"objects/item_parent_obj/item_parent_obj.yy",},"value":"\"Rare Materials\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_id","path":"objects/item_parent_obj/item_parent_obj.yy",},"objectId":{"name":"item_parent_obj","path":"objects/item_parent_obj/item_parent_obj.yy",},"value":"\"Collectable\"",},
   ],
   "parent": {
     "name": "Items",
