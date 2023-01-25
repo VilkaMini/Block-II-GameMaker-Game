@@ -35,3 +35,17 @@ draw_set_color(c_white);
 
 draw_sprite_ext(button_to_draw, -1, _x-80, _y+620, 0.5, 0.5, 0, c_white, 1);
 draw_text_ext(_x-80, _y+620-13, "Buy Coins", 0, 100);
+
+if (room == Map){
+	draw_sprite_ext(button_to_draw, -1, _x-240, _y+620, 0.5, 0.5, 0, c_white, 1);
+	draw_text_ext(_x-240, _y+620-13, "Speed up: 100c", 0, 100);
+}
+
+if (point_in_rectangle(x_mouse, y_mouse, _x-240-64, _y+620-16, _x-240+64 + 10, _y+620 + 16)) {
+	button_to_draw = spr_highlighted_game_button;
+    if (mouse_check_button_pressed(mb_left)) {
+       button_to_draw = spr_highlighted_pressed_game_button;
+	   draw_sprite(textbox, -1, _x, _y-45);
+	   draw_text_ext(_x, _y-45, "You don't have enough coins, you can buy more by clicking the Buy Coins button!", 25, 900);
+    }
+}
