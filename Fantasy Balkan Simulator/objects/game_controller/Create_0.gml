@@ -5,6 +5,8 @@ global.tree_done = false
 global.fish_active = false;
 global.fish_done = false;
 
+global.pay_coins = 99;
+
 // [item_name, item_max, item_sprites, item_owned]
 global.inventory = [
     ["Scrap Iron", 3, metal_scrap_item, 0],
