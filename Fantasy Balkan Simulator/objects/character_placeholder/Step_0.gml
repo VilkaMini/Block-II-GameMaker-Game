@@ -15,10 +15,20 @@ else {
 if(path_position == 1){
 	// Entering objects
 	if (global.char_pos == 0 && keyboard_check_pressed(vk_space)){
-		room_goto(Villages);
+		if (global.show_message_purchase == true){
+			global.show_message_purchase = false;
+		}
+		else {
+			room_goto(Villages);
+		}
 	}
 	else if (global.char_pos == 2 && keyboard_check_pressed(vk_space)){
-		room_goto(Villages);
+		if (global.show_message_purchase == true){
+			global.show_message_purchase = false;
+		}
+		else {
+			room_goto(Villages);
+		}
 	}
 	
 	// Movement from v2 gates 

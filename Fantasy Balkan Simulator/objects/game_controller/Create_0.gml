@@ -4,6 +4,7 @@ global.tree_active = false;
 global.tree_done = false
 global.fish_active = false;
 global.fish_done = false;
+global.show_message_purchase = false;
 
 global.pay_coins = 99;
 
