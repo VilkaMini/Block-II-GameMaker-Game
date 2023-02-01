@@ -40,7 +40,6 @@ if (npcNearby){
 }
 npcGenericNearby = collision_rectangle(x-10, y-10, x+10, y+10, generic_npc, true, true);
 if (npcGenericNearby){
-	show_debug_message("?");
 	if (keyboard_check_pressed(vk_space)){
 		switch global.interactingGeneric{
 			case true: {
@@ -55,6 +54,37 @@ if (npcGenericNearby){
 		}
 	}
 }
+signNearby = collision_rectangle(x-10, y-10, x+10, y+10, sign_post_object, true, true);
+signMNearby = collision_rectangle(x-10, y-10, x+10, y+10, sign_post_mountain_object, true, true);
+if (signNearby){
+	if (keyboard_check_pressed(vk_space)){
+		switch global.interactingSign{
+			case true: {
+				global.interactingSign = false;
+				break;
+			}
+			case false: {
+				global.interactingSign = true;
+				break;
+			}
+		}
+	}
+}
+if (signMNearby){
+	if (keyboard_check_pressed(vk_space)){
+		switch global.interactingMSign{
+			case true: {
+				global.interactingMSign = false;
+				break;
+			}
+			case false: {
+				global.interactingMSign = true;
+				break;
+			}
+		}
+	}
+}
+
 if (collision_rectangle(x-10, y-10, x+10, y+10, village_exit_object, true, true)){
 	exitNearby = true;
 	if (keyboard_check_pressed(vk_space)){

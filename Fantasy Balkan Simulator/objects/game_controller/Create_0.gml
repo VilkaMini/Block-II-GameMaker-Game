@@ -7,12 +7,14 @@ global.fish_done = false;
 global.show_message_purchase = false;
 global.interactingGeneric = false;
 global.talking = "";
+global.interactingSign = false;
+global.interactingMSign = false;
 
 global.pay_coins = 99;
 
 // [item_name, item_max, item_sprites, item_owned]
 global.inventory = [
-    ["Star",3,star_item,0],
+    ["Star",2,star_item,0],
 	["Jewels", 1,jewel_item, 0],
 	["Metal Detector",1,metal_detector_item,0],
     ["Scrap Iron", 3, metal_scrap_item, 0],

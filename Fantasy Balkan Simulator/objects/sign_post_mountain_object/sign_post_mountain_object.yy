@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "sign_post_object",
+  "name": "sign_post_mountain_object",
   "spriteId": {
     "name": "sign_post_sprite",
     "path": "sprites/sign_post_sprite/sign_post_sprite.yy",

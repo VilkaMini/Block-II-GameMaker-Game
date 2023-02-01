@@ -39,7 +39,7 @@ if(path_position == 1){
 			global.char_pos = 1;
 		}
 		// v2 gates to v1 gates
-		else if keyboard_check(ord("A")){
+		else if keyboard_check(ord("S")){
 			with (other) path_start(path_v2_to_v1, char_speed, path_action_stop, false);
 			global.char_pos = 2;
 		}
